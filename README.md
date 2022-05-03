@@ -2,15 +2,14 @@
 Event Ticket System Case Study
 
 # steps
-,,,
-
+'''
 1- Install dependencies: mysql.connector, pandas
 2- Create a Database and table into mysql
 3- creat connection
 4- insert csv file into the table
 5- make some query
 
-,,,
+'''
 #Result
 
 ,,,
