@@ -1,0 +1,16 @@
+ALTER SCHEMA `Sale_third_party`  DEFAULT CHARACTER SET utf8 ;
+
+
+CREATE TABLE `third_party_sales1` (
+  `ticket_id` int NOT NULL,
+  `trans_date` varchar(45) DEFAULT NULL,
+  `event_id` int DEFAULT NULL,
+  `event_name` varchar(50) DEFAULT NULL,
+  `event_date` date DEFAULT NULL,
+  `event_type` varchar(10) DEFAULT NULL,
+  `event_city` varchar(20) DEFAULT NULL,
+  `customer_id` int DEFAULT NULL,
+  `price` decimal(10,0) DEFAULT NULL,
+  `num_tickets` int DEFAULT NULL,
+  PRIMARY KEY (`ticket_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
