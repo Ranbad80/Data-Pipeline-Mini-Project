@@ -10,7 +10,7 @@ Event Ticket System Case Study
 5- make some query
 
 ```
-#Result
+# Result
 
 ```
 base) khalids-iMac:~ raniabadr$ /Users/raniabadr/Downloads/anaconda3/bin/python /Users/raniabadr/Documents/mini_projet_ticket/project_ticket.py
